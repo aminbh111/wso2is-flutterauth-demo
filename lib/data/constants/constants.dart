@@ -16,9 +16,9 @@
 
 library constants;
 
-const String identityServerDomain = "is.wso2isdemo.com";
-const String appClientID = "9PuCUFjPNYuz3RG1RtkxKQJktfsa";
-const String authRedirectURI = "org.wso2.cloud.flutterdemo://login-callback";
+const String identityServerDomain = "identity.parkxsconnect.com:2096";
+const String appClientID = "5FGJLVv_ot2F9UcCJnAfhseCONEa";
+const String authRedirectURI = "myapp://afs.com.afs:75235";
 const String discoveryEndpoint = "https://$identityServerDomain/oauth2/token/.well-known/openid-configuration";
 const String origin = "https://$identityServerDomain";
 const String issuer = origin;
